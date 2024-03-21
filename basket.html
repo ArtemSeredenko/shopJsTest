@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Basket</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <span class="logo"><a href="./index.html">Power Tools</a></span>
+      <span class="header-basket"
+        ><a href="./basket.html">Корзина</a><span class="basket-number"></span>
+      </span>
+    </header>
+    <h1 class="total-price-label js-total-price"></h1>
+    <button type="button" class="clear-cart-btn js-clear" hidden>
+      Clear basket
+    </button>
+    <ul class="products-container js-list"></ul>
+    <script type="module" src="./js/basketCount.js"></script>
+    <script type="module" src="./js/shop.js"></script>
+    <script type="module" src="./js/basket.js"></script>
+  </body>
+</html>

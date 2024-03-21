@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shop App</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <span class="logo">Power Tools</span>
+      <span class="header-basket"
+        ><a href="./basket.html">Корзина</a><span class="basket-number"></span
+      ></span>
+    </header>
+    <section class="hero-section">
+      <div class="hero-title-wrapper">
+        <h2 class="hero-title">
+          Превратите Вашу работу <br />
+          в мастерство
+        </h2>
+        <p class="hero-subtitle">
+          С нашим профессиональным электроинструментом каждый проект станет
+          шедевром
+        </p>
+        <button class="hero-btn">Начать покупки</button>
+      </div>
+    </section>
+    <div class="wrapper">
+      <ul class="products-container js-list"></ul>
+    </div>
+    <script type="module" src="./js/basketCount.js"></script>
+    <script type="module" src="./js/shop.js"></script>
+    <script type="module" src="./js/basket.js"></script>
+  </body>
+</html>
